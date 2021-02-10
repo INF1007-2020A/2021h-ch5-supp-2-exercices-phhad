@@ -4,7 +4,14 @@
 import math
 
 def get_num_letters(text):
-	return 0
+	text = ''
+	count = 0
+	for j in text:
+		if j.isalnum(text):
+			count += 1
+		else:
+			count -= 1
+	return count
 
 def get_word_length_histogram(text):
 	return [0]
