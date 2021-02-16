@@ -4,22 +4,22 @@
 import math
 
 def get_num_letters(text):
-	text = ''
 	count = 0
 	for j in text:
 		if j.isalnum(text):
 			count += 1
-		else:
-			count -= 1
 	return count
 
 def get_word_length_histogram(text):
+	for j in text:
+		if j is in spam:
+
 	return [0]
 
 def format_histogram(histogram):
 	ROW_CHAR = "*"
-
-	return ""
+	resultat = ""
+	return resultat
 
 def format_horizontal_histogram(histogram):
 	BLOCK_CHAR = "|"
