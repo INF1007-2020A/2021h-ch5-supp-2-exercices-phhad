@@ -19,6 +19,8 @@ def get_word_length_histogram(text):
 def format_histogram(histogram):
 	ROW_CHAR = "*"
 	resultat = ""
+
+	for i in histogram
 	return resultat
 
 def format_horizontal_histogram(histogram):
